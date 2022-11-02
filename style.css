@@ -15,20 +15,17 @@ body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.container {
+main {
+    margin: 15px;
     padding: 12px;
-    margin: auto;
     border-radius: 12px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     width: 300px;
-}
-
-.img-container {
-    height: 60%;
 }
 
 img {
@@ -43,7 +40,8 @@ img {
     justify-content: center;
 }
 
-p {
+
+h1, p {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     text-align: center;
